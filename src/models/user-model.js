@@ -17,7 +17,8 @@ const userSchema = new Schema({
         required:true
     }],
     googleID : { type:String , required:true},
-    thumbnail : String
+    thumbnail : String,
+    workexperience : String
 });
 
 userSchema.methods.toJSON = function () {
