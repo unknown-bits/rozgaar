@@ -8,7 +8,8 @@ const jobSchema = new Schema({
     ownerName:String,
     ownerAddress:String,
     ownerID : String, 
-    email:String
+    email:String,
+    salary:Int
 });
 
 const Job = mongoose.model('job',jobSchema);
